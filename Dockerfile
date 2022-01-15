@@ -1,4 +1,4 @@
-FROM ruby:3.0.3-slim-bullseye
+FROM ruby:3.0.3-slim-buster
 
 RUN addgroup --gid 2000 app && \
     adduser --system --home /home/app --uid 1000 --disabled-password --ingroup app app
