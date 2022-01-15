@@ -3,8 +3,6 @@ Testing building Ruby 3.0 with ruby-debug-ide
 
 With this build (on master branch), get the below output.
 
-Changing Gemfile.lock to have `debase-ruby_core_source (0.10.14)` instead of `0.10.12`) fixes it.
-
 ```
 $ docker build ./
 Sending build context to Docker daemon     64kB
