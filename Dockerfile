@@ -1,4 +1,4 @@
-FROM ruby:2.7.1-slim-buster
+FROM ruby:2.7.1
 
 RUN addgroup --gid 2000 app && \
     adduser --system --home /home/app --uid 1000 --disabled-password --ingroup app app
