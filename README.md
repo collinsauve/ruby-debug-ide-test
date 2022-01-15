@@ -1,7 +1,7 @@
 # ruby-debug-ide-test
 Testing building Ruby 3.1 with ruby-debug-ide
 
-With this build (on master branch), get the below output.
+With this build (on main branch), get the below output.
 
 ```
 $ docker build ./
